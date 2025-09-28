@@ -34,3 +34,23 @@ class ProjectScreen extends StatelessWidget {
         );
     }
 }
+
+ListView(
+    children: [
+        ListTile(
+            title: Text('Budowa kurnika'),
+            subtitle: Text('4 zadania'),
+            trailing: Text('Backlog'),
+            onTap: () {
+                // Navigate to project details
+            },
+        ),
+        ListTile(
+            title: Text('Malowanie dachu'),
+            subtitle: Text('2 zadania'),
+            onTap: () {
+                // Navigate to project details
+            },
+        ),
+    ],
+)
